@@ -1,0 +1,97 @@
+.container {
+    height: 80%;
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: #461772;
+    box-shadow: 7px 7px 10px 3px #24004628;
+    border-radius: 12px;
+
+    font-weight: bold;
+
+
+    h1 {
+        cursor: pointer;
+    }
+}
+
+.login {
+    color: white;
+    height: 20%;
+
+    transition: all 1s;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.create {
+    height: 20%;
+    border-radius: 10% 10% 0 0;
+    
+    
+    color: #54069e;
+    background-color: rgb(244, 246, 248);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    transition: all 1s;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    height: fit-content;
+    overflow: hidden;
+}
+
+input {
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+.form button {
+    padding: 10px;
+    min-width: 150px;
+    margin: 12px auto 10%;
+    color: #fff;
+    background: #573b8a;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    transition: .2s ease-in;
+
+
+}
+
+.form button:hover {
+    background-color: #6d44b8;
+}
+
+.selected {
+    width: 100%;
+    height: 90%;
+    gap: 20px;
+
+}
+
+.hidden {
+    height: 0;
+}
